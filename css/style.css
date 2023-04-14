@@ -218,3 +218,84 @@ p {
     border-width: 1px;
     border-color: #ed455d;
 }
+
+.brand {
+    margin-top: 23px;
+    padding-right: 0px;
+}
+
+.container-2 {
+    overflow: visible;
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+    width: 367px;
+    height: 421px;
+    margin-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #00c04d;
+}
+
+.cards.last-card {
+    margin-right: 0px;
+    background-color: #fb0;
+}
+
+.cards.two {
+    background-color: #ff6d4a;
+}
+
+.heading-2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heading-3 {
+    color: #fff;
+}
+
+.image {
+    margin-left: 0px;
+}
+
+.content {
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content.cards {
+    display: flex;
+    width: auto;
+    margin-top: 180px;
+    margin-top: 180px;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.left {
+    max-width: 763px;
+    margin-right: 30px;
+    padding: 20px 40px 40px;
+    border-radius: 15px;
+    background-color: #ffecdd;
+}
+
+.left.mid {
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.right {
+    border-radius: 15px;
+}
+
+.mid-content
