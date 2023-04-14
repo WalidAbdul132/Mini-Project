@@ -170,4 +170,51 @@ p {
     background-color: transparent;
 }
 
-.nav-link {}
+.nav-link {
+    margin-right: 10px;
+    border-bottom: 1px solid #121421;
+    transition: all 200ms ease;
+    font-family: Mulish, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #ed455d;
+}
+
+.nav-link.pretty-button {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid #ed455d;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: opacity 200ms ease;
+    color: #ed455d;
+}
+
+.nav-link.pretty-button:hover {
+    opacity: 0.7;
+}
+
+.nav-link.second {
+    border-bottom-color: #fcf3ec;
+    color: #121421;
+}
+
+.nav-link.second:hover {
+    border-style: none none solid;
+    border-width: 1px 0px 1px 1px;
+    border-color: #ed455d;
+}
+
+.nav-link.second.w--current {
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #ed455d;
+}
