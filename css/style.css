@@ -1,0 +1,144 @@
+.w-form-formradioinput--inputTypr-custom {
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.w-form-formradioinput--inputTypr-custom.w--redirected-focus {
+    box-shadow: 0px 0px 3px 1px #3898ec;
+}
+
+.w-form-formradioinput--inputTypr-custom.w--redirected-checked {
+    border-width: 4px;
+    border-color: #3898ec;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+}
+
+h2 {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    line-height: 42px;
+    font-weight: 800;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    color: #ed455d;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 800;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: Mulish, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+.hero-content {
+    max-width: 685px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section.hero-content {
+    height: 800px;
+    margin-bottom: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #121421;
+}
+
+.section.overflow-hidden {
+    overflow: hidden;
+}
+
+.section.footer {
+    height: 540px;
+    margin-top: 60px;
+    background-color: #121421;
+}
+
+.section.fee {
+    padding-bottom: 0px;
+}
+
+.section.pane {
+    padding-top: 0px;
+}
+
+.body {
+    background-color: #fcf3ec;
+}
+
+.heading {
+    max-width: 683px;
+    color: #fff;
+    text-align: center;
+}
+
+.pink-button {
+    margin-top: 35px;
+    margin-left: 245px;
+    padding: 16px 40px;
+    border-radius: 6px;
+    background-color: #ed455d;
+    transition: opacity 200ms ease;
+    font-family: Mulish, Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
