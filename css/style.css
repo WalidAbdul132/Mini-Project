@@ -298,4 +298,82 @@ p {
     border-radius: 15px;
 }
 
-.mid-content
+.mid-content {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-content.last {
+    margin-bottom: 0px;
+}
+
+.image-2 {
+    margin-left: 0px;
+}
+
+.heading-4 {
+    margin-bottom: 40px;
+}
+
+.heading-5 {
+    margin-top: 15px;
+}
+
+.heading-6 {
+    margin-bottom: 80px;
+}
+
+.heading-copy {
+    max-width: 683px;
+    margin: 60px auto 80px;
+    color: #121421;
+    text-align: center;
+}
+
+.image-3 {
+    border-radius: 15px;
+}
+
+.testi-card {
+    width: 367px;
+    padding: 17px 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #fff;
+}
+
+.div-block {
+    max-width: 168px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-4 {
+    margin-bottom: 0px;
+}
+
+.div-block-2 {
+    width: 7px;
+    height: 63px;
+    margin-right: 10px;
+    background-color: #ed455d;
+}
+
+.paragraph {
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.div-block-3 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.testimonial-image {
+    height: 228px;
+    margin-bottom: 25px;
+    border-top-right-radius: 40px;
+    background-color: transparent;
+}
