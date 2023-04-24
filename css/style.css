@@ -79,8 +79,8 @@ p {
     margin-bottom: 10px;
     font-family: Mulish, sans-serif;
     font-size: 18px;
-    line-height: 23px;
-    font-weight: 600;
+    line-height: 26px;
+    font-weight: 500;
 }
 
 .hero-content {
@@ -92,6 +92,7 @@ p {
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
+    margin: 0;
 }
 
 .section.hero-section {
@@ -107,7 +108,7 @@ p {
 }
 
 .section.footer {
-    height: 540px;
+    height: auto;
     margin-top: 60px;
     background-color: #121421;
 }
@@ -122,6 +123,7 @@ p {
 
 .body {
     background-color: #fcf3ec;
+    padding: 0;
 }
 
 .heading {
