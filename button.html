@@ -6,10 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .radio-buttons label {
+            display: inline-block;
+            margin-right: 20px;
+            padding: 5px 10px;
+            font-size: 18px;
+            color: white;
+            background-color: orange;
+            border-radius: 20px;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .radio-buttons input[type="radio"] {
+            display: none;
+        }
+        
+        .radio-buttons .checkmark {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: transparent;
+        }
+        
+        .radio-buttons input[type="radio"]:checked+label .checkmark {
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>
-
+    <form>
+        <div class="radio-buttons">
+            <label>
+            <input type="radio" name="option" value="option1" checked>
+            <span class="checkmark"></span>
+            Option 1
+            </label>
+            <label>
+            <input type="radio" name="option" value="option2">
+            <span class="checkmark"></span>
+            Option 2
+            </label>
+        </div>
+    </form>
 </body>
 
 </html>
