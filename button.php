@@ -137,6 +137,9 @@
         </label>
     </div>
 
+    <?php
+
+    ?>
 </body>
 
 </html>
