@@ -114,7 +114,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <!-- <div class="wrapper">
         <input type="radio" name="select" id="option-1" checked>
         <label for="option-1" class="option option-1">
           <div class="dot"></div>
@@ -135,10 +135,17 @@
           <div class="dot"></div>
           <span>Back</span>
         </label>
-    </div>
+    </div> -->
 
     <?php
-
+        $num = 4
+        for($i = 1; $i <= $num; $i++){
+                echo '<input type="radio" name="select" id="option-1" checked>';
+                echo '<label for="option-1" class="option option-1">';
+                echo '<div class="dot"></div>';
+                echo '<span>Student</span>';
+                echo '</label>';
+        }
     ?>
 </body>
 
