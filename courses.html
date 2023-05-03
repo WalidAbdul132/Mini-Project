@@ -26,12 +26,45 @@
         </div>
     </div>
 
+    <script>
+        window.addEventListener("load", function() {
+            var button1 = document.getElementById("button1");
+            var button2 = document.getElementById("button2");
+            var button3 = document.getElementById("button3");
+            var button4 = document.getElementById("button4");
+
+            button1.addEventListener("click", function() {
+                button1.classList.add("selected");
+                button2.classList.remove("selected");
+                button3.classList.remove("selected");
+                button4.classList.remove("selected");
+            });
+            button2.addEventListener("click", function() {
+                button1.classList.remove("selected");
+                button2.classList.add("selected");
+                button3.classList.remove("selected");
+                button4.classList.remove("selected");
+            });
+            button3.addEventListener("click", function() {
+                button3.classList.add("selected");
+                button2.classList.remove("selected");
+                button1.classList.remove("selected");
+                button4.classList.remove("selected");
+            });
+            button4.addEventListener("click", function() {
+                button4.classList.add("selected");
+                button2.classList.remove("selected");
+                button3.classList.remove("selected");
+                button1.classList.remove("selected");
+            });
+        });
+    </script>
     <div class="section fee">
         <div class="content">
             <h1>Fee Advice</h1>
             <div> this is some text inside a div block</div>
             <div class="form">
-                <button class="tab" id="button1">
+                <button class="tab selected" id="button1">
                     <div class="tab-text">Under Graduate</div>
                 </button>
                 <button class="tab" id="button2">
